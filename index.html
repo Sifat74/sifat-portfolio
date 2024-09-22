@@ -5,12 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shahriar Ahamed Sifat</title>
+    <!-- Fonts -->
+    <!-- Crimson pro font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- css sheets -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-responsive.css">
+    <link rel="stylesheet" href="/css/js-classses.css">
 </head>
 
 <body>
     <!-- Header section -->
-    <header>
-
+    <header class="container">
+        <h3>Shahriar Ahamed Sifat</h3>
+        <div class="menu-btn-container">
+            <a href="#about-me">
+                <div style="opacity: 1; z-index: 100;" class="menu-btn position-absolute">About Me</div>
+            </a>
+            <a href="#projects">
+                <div class="menu-btn position-absolute">Projects</div>
+            </a>
+            <a href="#skills">
+                <div class="menu-btn position-absolute">Skills</div>
+            </a>
+            <a href="#contact-me">
+                <div class="menu-btn position-absolute">Contact Me</div>
+            </a>
+        </div>
+        <!-- Menu icon -->
+        <img class="menu-icon" src="/assets/hamburger.png" alt="">
+        <!-- Popup -->
+        <div class="menu-popup menu-transform">
+            <img class="menu-close-icon" src="/assets/close.png" alt="">
+            <div class="popup-menu-items">
+                <a href="#about-me">
+                    <div class="popup-menu-item">About Me</div>
+                </a>
+                <a href="#projects">
+                    <div class="popup-menu-item">Projects</div>
+                </a>
+                <a href="#skills">
+                    <div class="popup-menu-item">Skills</div>
+                </a>
+                <a href="#contact-me">
+                    <div class="popup-menu-item">Contact Me</div>
+                </a>
+            </div>
+        </div>
     </header>
 
     <!-- Main Sections -->
@@ -22,6 +72,8 @@
     <footer>
 
     </footer>
+
+    <script src="/js/script.js"></script>
 
 </body>
 

@@ -1,0 +1,4 @@
+.menu-transform {
+    transform: translatex(100%);
+    transition: var(--transition);
+}
